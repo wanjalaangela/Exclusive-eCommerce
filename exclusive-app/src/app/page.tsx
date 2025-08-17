@@ -1,12 +1,13 @@
-import TopBar from "@/components/TopBar";
-import Header from "@/components/Header";
+import TopBar from "@/SharedComponents/TopBar";
+import Header from "@/SharedComponents/Header";
 import CategoriesSidebar from "@/components/CategoriesSidebar";
 import HeroBanner from "@/components/HeroBanner";
 import {FlashSales} from "@/components/FlashSales";
-import { Footer } from "@/components/Footer";
+import { Footer } from "@/SharedComponents/Footer";
 import Categories from "@/components/Categories";
 import { BestSelling } from "@/components/Selling";
 import { ExploreProducts } from "@/components/ExploreProducts";
+import NewArrivalSection from "@/components/NewArrivalSection";
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -29,6 +30,7 @@ export default function Home() {
      <Categories/>
      <BestSelling/>
 <ExploreProducts/>
+<NewArrivalSection/>
       <Footer />
 
     </main>

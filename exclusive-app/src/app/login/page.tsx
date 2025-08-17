@@ -1,11 +1,11 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import TopBar from "@/components/TopBar";
-import Header from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { Input } from "@/components/Input";
-import { Button } from "@/components/Button";
+import TopBar from "@/SharedComponents/TopBar";
+import Header from "@/SharedComponents/Header";
+import { Footer } from "@/SharedComponents/Footer";
+import { Input } from "@/SharedComponents/Input";
+import { Button } from "@/SharedComponents/Button";
 import Image from "next/image";
 
 export default function SignUp() {
