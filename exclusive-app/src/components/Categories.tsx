@@ -12,8 +12,12 @@ const categories = [
 export default function Categories() {
   return (
     <section className="max-w-7xl mx-auto px-4 md:px-6 py-10 ">
+        <div className="flex items-center gap-4 mb-6">
+                <div className="w-5 h-10 bg-red-500 rounded-sm"></div>
+                <span className="text-red-500 font-semibold">Categories</span>
+            </div>
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold">Categories</h2>
+        <h2 className="text-4xl font-semibold text-black">Browse by Categories</h2>
         <a
           href="#"
           className="text-red-500 font-medium hover:underline flex items-center"

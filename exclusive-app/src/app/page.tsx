@@ -2,9 +2,11 @@ import TopBar from "@/components/TopBar";
 import Header from "@/components/Header";
 import CategoriesSidebar from "@/components/CategoriesSidebar";
 import HeroBanner from "@/components/HeroBanner";
-import FlashSales from "@/components/FlashSales";
+import {FlashSales} from "@/components/FlashSales";
 import { Footer } from "@/components/Footer";
 import Categories from "@/components/Categories";
+import { BestSelling } from "@/components/Selling";
+import { ExploreProducts } from "@/components/ExploreProducts";
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -25,6 +27,8 @@ export default function Home() {
       </section>
      <FlashSales/>
      <Categories/>
+     <BestSelling/>
+<ExploreProducts/>
       <Footer />
 
     </main>
