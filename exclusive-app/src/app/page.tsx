@@ -1,13 +1,13 @@
 import TopBar from "@/SharedComponents/TopBar";
 import Header from "@/SharedComponents/Header";
-import CategoriesSidebar from "@/components/CategoriesSidebar";
-import HeroBanner from "@/components/HeroBanner";
-import {FlashSales} from "@/components/FlashSales";
+import CategoriesSidebar from "@/components/CategoriesSidebar/page";
+import HeroBanner from "@/components/HeroBanner/page";
+import {FlashSales} from "@/components/Flashsales/page";
 import { Footer } from "@/SharedComponents/Footer";
-import Categories from "@/components/Categories";
-import { BestSelling } from "@/components/Selling";
-import { ExploreProducts } from "@/components/ExploreProducts";
-import NewArrivalSection from "@/components/NewArrivalSection";
+import Categories from "@/components/Categories/page";
+import { BestSelling } from "@/components/Selling/page";
+import { ExploreProducts } from "@/components/ExploreProducts/page";
+import NewArrivalSection from "@/components/NewArrival/page";
 export default function Home() {
   return (
     <main className="min-h-screen">
