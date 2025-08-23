@@ -6,7 +6,7 @@ export function ExploreProducts() {
   const products = [
     {
       id: 1,
-      name: "Breed Dry Dog Food", // No two dots to remove here, so unchanged
+      name: "Breed Dry Dog Food", 
       price: 100,
       rating: 3,
       reviews: 35,
@@ -117,8 +117,8 @@ export function ExploreProducts() {
                 <Image
                   src={product.image}
                   alt={product.name}
-                  width={120} // Increased size
-                  height={120} // Increased size
+                  width={120} 
+                  height={120} 
                   className="object-contain"
                 />
               </div>
